@@ -1,45 +1,13 @@
-body {
+#background {
 	background-image: url("../images/concrete.png");
 }
+/* Header and Navigation */
 .nav-container {
 	background-color: #ffffff;
 	border-bottom: 90px solid #ffffff;
 	margin-top: -8px;
 	margin-left: -10px;
 	margin-right: -10px;
-}
-.navbar {
-	float: right;
-}
-.container {
-    font-family: 'Roboto', sans-serif;
-	width: 960px;
-	margin: auto;
-	min-height: calc(100vh - 70px);
-}
-.section-container {
-	background-color: #ffffff;
-	margin-top: 150px;
-	border: 1px, solid, #dddddd;
-	padding: 20px;
-}
-
-.top-header {
-	margin-left: 40px;
-	border-bottom: 1px;
-	color: #4aaaa5;
-	border-bottom: 1px;
-}
-.content {
-	color: #777777;
-	padding: 10px;
-	left: 0;
-	right: 0;
-}
-#profile-image {
-    float: left;
-    padding: 40px;
-    margin-top: -40px;
 }
 #name {
 	float: left;
@@ -52,6 +20,58 @@ body {
 	line-height: 90px;
 	font-weight: bold;
 	text-decoration: none;
+}
+.navbar {
+	float: right;
+	padding: 40px;
+}
+.links {
+	color: #777777;
+	display: inline-block;
+	margin-right: 10px;
+	text-decoration: none;
+}
+#about,
+#portfolio {
+	border-right: 1px solid grey;
+	padding-right: 20px;
+}
+#about,
+#portfolio,
+#contact {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+}
+/* Content */
+.container {
+    font-family: 'Roboto', sans-serif;
+	width: 960px;
+	margin: auto;
+	min-height: calc(100vh - 70px);
+}
+.section-container {
+	background-color: #ffffff;
+	margin-top: 150px;
+	border: 1px, solid, #dddddd;
+	padding: 20px;
+}
+.content-header {
+	margin-left: 40px;
+	border-bottom: 1px;
+	color: #4aaaa5;
+	border-bottom: 1px;
+}
+.content {
+	color: #777777;
+	padding: 10px;
+	left: 0;
+	right: 0;
+}
+/* Profile Image */
+#profile-image {
+    float: left;
+    padding: 40px;
+    margin-top: -40px;
 }
 .footer {
 	padding: 40px;
