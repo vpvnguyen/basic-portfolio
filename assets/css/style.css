@@ -32,6 +32,7 @@
 .navbar {
 	float: right;
 	padding: 40px;
+	padding-right: 0px;
 }
 .links {
 	color: #777777;
@@ -125,8 +126,15 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
-input[type=submit]:hover {
-  background-color: #78c9c5;
+/* Hover Effects */
+input[type=submit]:hover,
+#name:hover {
+	background-color: lightgrey;
+}
+#about:hover,
+#portfolio:hover,
+#contact:hover {
+	color: #4aaaa5;
 }
 /* Footer */
 .footer {
