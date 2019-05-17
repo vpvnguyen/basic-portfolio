@@ -138,15 +138,17 @@ input[type=submit]:hover,
 }
 /* Footer */
 .footer {
-	line-height: 40px;
+	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	color: #ffffff;
 	border-top: 8px solid #4aaaa5;
+	line-height: 40px;
+	width: 100%;
 	background-color: #666666;
-	overflow: auto;
-	margin-left: -10px;
-	margin-right: -10px;
-	font-family: 'Roboto', sans-serif;
+	position: fixed;
+	bottom: 0;
+	margin-left: -5px;
+	margin-right: -5px;
 }
 
 
