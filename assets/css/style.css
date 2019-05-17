@@ -1,3 +1,11 @@
+/* For flexbox footer */
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
 #background {
 	background-image: url("../images/concrete.png");
 }
@@ -24,8 +32,7 @@
 	font-family: 'Roboto', sans-serif;
 	font-size: 30px;
 	line-height: 100px;
-	padding-left: 25px;
-	padding-right: 25px;
+	padding: 0px 25px 0px 25px;
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -36,7 +43,6 @@
 }
 .links {
 	color: #777777;
-	display: inline-block;
 	margin-right: 10px;
 	text-decoration: none;
 }
@@ -54,10 +60,12 @@
 }
 /* Content */
 .container {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 	width: 960px;
 	margin: auto;
 	min-height: calc(100vh - 70px);
+	/* For Flexbox Footer */
+	flex: 1 0 auto;
 }
 .section-container {
 	background-color: #ffffff;
@@ -69,8 +77,8 @@
 	margin-left: 40px;
 	border-bottom: 1px;
 	color: #4aaaa5;
-	border-bottom: 1px;
 }
+/* Line */
 .hr-line {
 	color: #777777;
 }
@@ -79,34 +87,35 @@
 	padding: 10px;
 	left: 0;
 	right: 0;
+	font-size: 20px;
 }
 /* Portfolio Content */
 .content-portfolio {
+	float: left;
 	color: #777777;
-	padding: 40px;
 	left: 0;
 	right: 0;
+	width: auto;
 }
 /* Need to figure out how to fill background section with images */
-/* .portfolio-position {
+.portfolio-position {
 	position: relative;
 	float: left;
 	padding: 10px;
 	height: 200px;
 	width: 300px;
-} */
+}
 /* Profile Image */
 #profile-image {
-    float: left;
-    padding: 40px;
-    margin-top: -40px;
+	float: left;
+	padding: 40px;
+	padding-left: 10px;
+	margin-top: -40px;
 }
 /* Contact Form */
 .contact-form {
 	font-family: 'Roboto', sans-serif;
 	padding: 40px;
-}
-* {box-sizing: border-box;
 }
 input[type=text], select, textarea {
   width: 100%;
@@ -136,20 +145,13 @@ input[type=submit]:hover,
 #contact:hover {
 	color: #4aaaa5;
 }
-/* Footer */
+/* Flexbox Footer */
 .footer {
+	flex-shrink: 0;
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	color: #ffffff;
 	border-top: 8px solid #4aaaa5;
 	line-height: 40px;
-	width: 100%;
 	background-color: #666666;
-	position: fixed;
-	bottom: 0;
-	margin-left: -5px;
-	margin-right: -5px;
 }
-
-
-
