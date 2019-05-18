@@ -113,9 +113,11 @@ body {
 .portfolio-absolute {
 	position: relative;
 	padding: 20px;
+	padding-left: 20px;
 	background-color: grey;
 	color: white;
-	left: -150px;
+	left: -691px;
+	text-align: center;
 }
 /* Profile Image */
 #profile-image {
