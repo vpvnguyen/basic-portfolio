@@ -91,7 +91,7 @@ body {
 	font-size: 20px;
 }
 /* Portfolio Content */
-.box {
+.label-box {
 	float: left;
 	padding: 70px;
 	width: 300px;
@@ -99,7 +99,7 @@ body {
 	position: relative;
 	margin-bottom: 20px;
 }
-.showbox {
+.image {
 	position: absolute;
 	border-style: solid;
 	border-color: #4aaaa5;
