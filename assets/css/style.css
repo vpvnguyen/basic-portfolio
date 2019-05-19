@@ -91,33 +91,29 @@ body {
 	font-size: 20px;
 }
 /* Portfolio Content */
-.content-portfolio {
-	position: relative;
+.box {
 	float: left;
-	color: #777777;
-	left: 0;
-	right: 0;
-	/* Filling in the rest of back white layer */
-	padding: 100px;
-	background-color: #ffffff;
-	margin-left: -18px;
-	margin-right: -18px;
-}
-/* Need to figure out how to fill background section with images */
-.portfolio-position {
-	position: relative;
-	padding: 10px;
-	height: 200px;
+	padding: 70px;
 	width: 300px;
-}
-.portfolio-absolute {
+	height: 200px;
 	position: relative;
-	padding: 20px;
-	padding-left: 20px;
-	background-color: grey;
-	color: white;
-	left: -691px;
+	margin-bottom: 20px;
+}
+.showbox {
+	position: absolute;
+	border-style: solid;
+	border-color: #4aaaa5;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 15px;
+	left: 70px;
+	width: 264px;
+	bottom: 100px;
 	text-align: center;
+}
+.clearfix {
+	overflow: auto;
+
 }
 /* Profile Image */
 #profile-image {
